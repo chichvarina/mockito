@@ -1,0 +1,15 @@
+### — список сотрудников по департаменту.
+GET http://localhost:8080/department/2/employees
+
+###  — сумма зарплат по департаменту.
+GET http://localhost:8080/department/2/salary/sum
+
+###  — максимальная зарплата по департаменту.
+GET http://localhost:8080/department/2/salary/max
+
+###  — минимальная зарплата по департаменту.
+GET http://localhost:8080/department/2/salary/min
+
+###  — сотрудники, сгруппированные по отделам в виде Map<Integer,List<Employees>>,
+###    где ключ — это номер отдела, а значение — список сотрудников данного отдела.
+GET http://localhost:8080/department/employees
